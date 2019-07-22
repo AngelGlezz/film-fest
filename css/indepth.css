@@ -62,7 +62,6 @@
 }
 
 #top-bar {
-	height: 50px;
 	margin: 50px auto;
 	display: flex;
 }
@@ -75,6 +74,10 @@
 	font-size: 50px;
 	letter-spacing: 8px;
 	color: #bb9d59;
+}
+
+#inicio-bar {
+	border-bottom: 2px solid #bb9d59;
 }
 
 .content-director {
@@ -104,15 +107,6 @@
 	text-align: center;
 	margin: 0px 8px;
 	letter-spacing: 3px;
-}
-
-.fancybox-opened, .fancybox-inner, .fancybox-image {
-	top: 0px!important;
-	max-width: 910px!important;
-}
-
-.fancybox-image {
-	max-height: 100vh!important;
 }
 
 @media(max-width: 960px) {
@@ -203,7 +197,7 @@
 
 	.director_img a img {
     	width: 260px;
-    	height: 330px;
+    	height: 370px;
     }  
 
     .director_img {
