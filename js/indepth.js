@@ -1,8 +1,7 @@
 $(document).ready(function(){
-	$(".show").fancybox();
-    $(".show").attr('rel', 'lb_info').fancybox({padding: 0});
     $(".show").fancybox({
-        'centerOnScroll': true
+        'centerOnScroll': true,
+        'padding': 0
     });
 
     $("#inicio-bar").click(function(){
