@@ -5,9 +5,9 @@ $(document).ready(function(){
     });
 
     $("#inicio-bar").click(function(){
-    	$("#directores").hide();
-    	$("#jornadas").hide();
-    	$("#inicio").show();
+        $("#inicio").show();
+    	$("#directores").fadeOut("slow");
+    	$("#jornadas").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "2px solid #bb9d59"});
         $("#directores-bar").css({"border-bottom": "none"});
         $("#jornadas-bar").css({"border-bottom": "none"});
@@ -15,17 +15,17 @@ $(document).ready(function(){
 
 	$("#directores-bar").click(function(){
     	$("#directores").show();
-    	$("#jornadas").hide();
-    	$("#inicio").hide();
+    	$("#jornadas").fadeOut("slow");
+    	$("#inicio").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "none"});
         $("#directores-bar").css({"border-bottom": "2px solid #bb9d59"});
         $("#jornadas-bar").css({"border-bottom": "none"});
     });
 
     $("#jornadas-bar").click(function(){
-    	$("#directores").hide();
-    	$("#jornadas").show();
-    	$("#inicio").hide();
+        $("#jornadas").show();
+    	$("#directores").fadeOut("slow");
+    	$("#inicio").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "none"});
         $("#directores-bar").css({"border-bottom": "none"});
         $("#jornadas-bar").css({"border-bottom": "2px solid #bb9d59"});
