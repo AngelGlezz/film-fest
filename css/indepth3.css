@@ -179,7 +179,7 @@
     	/* Needed for children to be absolutely positioned relative to the parent. */
 	  position: relative;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  width: 100vh;
+	  height: 30vh;
 	  
 	  /* For text formatting. */
 	  display: flex;
@@ -187,7 +187,7 @@
 	  justify-content: center;
 	  color: white;
 	  text-shadow: 0 0 5px #000;
-	  background-repeat: no-repeat;
+	  background-repeat: no-repeat!important;
     }
 
     .parallax::after {
@@ -212,6 +212,7 @@
 	/* The styling for the static div. */
 	.static {
 	  background-image: url(../images/j1/escena2.jpg);
+	  background-size: 100%;
 	}
 
 	#bg1-j1::after {
