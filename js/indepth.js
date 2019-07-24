@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 
     $("#jornadas-bar").click(function(){
-        $("#jornadas").show();
+        $("#jornada").show();
     	$("#directores").fadeOut("slow");
     	$("#inicio").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "none"});

@@ -143,6 +143,11 @@
     	width: 482px;
     }
 
+    .item-top-bar {
+    	font-size: 25px;
+    	letter-spacing: 6px;
+    }
+
     .director_img:nth-child(odd) {
     	margin-right: 50px;
     }
@@ -251,8 +256,8 @@
     }
 
     .item-top-bar {
-    	font-size: 30px;
-    }
+		margin-right: 20px;
+	}
 
     #content-header {
 	    height: 117px;
@@ -277,6 +282,12 @@
     	width: 95%;
     }
 
+    .item-top-bar {
+    	font-size: 20px;
+    	letter-spacing: 4px;
+    	margin-right: 20px;
+    }
+
 	.director_img a img {
     	width: 260px;
     	height: 370px;
@@ -286,11 +297,6 @@
     	margin: 30px auto!important;
     	float: none;
     	width: 260px;
-    }    
-
-    .item-top-bar {
-    	font-size: 20px;
-    	margin-right: 25px;
     }
 
     #text-content {
