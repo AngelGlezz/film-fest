@@ -3,7 +3,7 @@
    font-family: "Bebas-neue";
    src: url(../fonts/BebasNeue.otf) format("opentype");
 }
-#directores {
+#directores, #jornada {
 	display: none;
 }
 
@@ -179,7 +179,7 @@
     	/* Needed for children to be absolutely positioned relative to the parent. */
 	  position: relative;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 30vh;
+	  height: 24vh;
 	  
 	  /* For text formatting. */
 	  display: flex;
@@ -202,7 +202,7 @@
 	  /* Move the pseudo-element back away from the camera,
 	   * then scale it back up to fill the viewport.
 	   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-	  transform: translateZ(-1px) scale(1.5);
+	  transform: translateZ(-1px) scale(1);
 	  /* Force the background image to fill the whole element. */
 	  background-size: 100%;
 	  /* Keep the image from overlapping sibling elements. */ 
