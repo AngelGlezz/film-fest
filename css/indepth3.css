@@ -234,7 +234,7 @@
 	  background-color: #000;
 	  background-size: 100% 80%;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 45vh;
+	  height: 50vh;
 	}
 
 	#bg1-j1::after {
@@ -362,7 +362,7 @@
 
     .parallax::after {
 	  transform: translateZ(-1px) scale(1.5);
-	  background-size: 100% 120%;
+	  background-size: 100% 115%;
 	}
 
 	/* The styling for the static div. */
@@ -370,12 +370,12 @@
 	  background-color: #000;
 	  background-size: 100% 80%;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 45vh;
+	  height: 50vh;
 	  padding: 15px 0px;
 	}
 
 	#txt3-j1 {
-		height: 35vh!important;
+		height: 0vh!important;
 	}
 }
 
