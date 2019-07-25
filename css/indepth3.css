@@ -326,10 +326,14 @@
 }
 
 @media(max-width: 815px) and (max-height: 400px) {
+	#jornada {
+		width: 215vh;
+	}
+
 	.jornada-content {
     	/* The height needs to be set to a fixed value for the effect to work.
 	   * 100vh is the full height of the viewport. */
-	  height: 105vh;
+	  height: 112vh;
 	  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
 	  overflow-x: hidden;
 	  /* Enable scrolling on the page. */
@@ -379,7 +383,8 @@
 	  background-color: #000;
 	  background-size: 100% 80%;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 40vh;
+	  height: 60vh;
+	  padding: 15px 0px;
 	}
 
 	#bg1-j1::after {
@@ -392,5 +397,9 @@
 
 	#bg3-j1::after {
 		background-image: url(../images/j1/escena_3.jpg);
+	}
+
+	#txt3-j1 {
+		height: 17vh;
 	}
 }
