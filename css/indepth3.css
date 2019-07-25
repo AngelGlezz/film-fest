@@ -183,9 +183,6 @@
     .item {
     	/* Needed for children to be absolutely positioned relative to the parent. */
 	  position: relative;
-	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 50vh;
-	  
 	  /* For text formatting. */
 	  display: flex;
 	  align-items: center;
@@ -194,6 +191,11 @@
 	  text-shadow: 0 0 5px #000;
 	  background-repeat: no-repeat!important;
     }
+
+    .parallax {
+    	height: 50vh;
+    }
+    
 
     .parallax::after {
 	  /* Display and position the pseudo-element */
@@ -217,15 +219,17 @@
 	/* The styling for the static div. */
 	.static {
 	  background-image: url(../images/j1/escena2.jpg);
-	  background-size: 100% 70%;
+	  background-size: 100% 80%;
+	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+	  height: 40vh;
 	}
 
 	#bg1-j1::after {
-		background-image: url(../images/j1/OK.jpg);
+		background-image: url(../images/j1/escena_1.jpg);
 	}
 
 	#bg3-j1::after {
-		background-image: url(../images/j1/escena_1.jpg);
+		background-image: url(../images/j1/escena_3.jpg);
 	}
 }
 
