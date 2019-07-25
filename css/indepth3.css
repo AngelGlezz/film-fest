@@ -184,7 +184,7 @@
     	/* Needed for children to be absolutely positioned relative to the parent. */
 	  position: relative;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 70vh;
+	  height: 60vh;
 	  
 	  /* For text formatting. */
 	  display: flex;
@@ -217,7 +217,7 @@
 	/* The styling for the static div. */
 	.static {
 	  background-image: url(../images/j1/escena2.jpg);
-	  background-size: 100% 100%;
+	  background-size: 100% 70%;
 	}
 
 	#bg1-j1::after {
