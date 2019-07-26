@@ -319,6 +319,7 @@
 	}
 
 	.static p {
+		width: 85%;
 		top: 310px;
 	}
 
@@ -472,7 +473,7 @@
 	}
 
 	#txt3-j1 {
-		height: 0vh!important;
+		height: 40vh!important;
 	}
 
 	.parallax-desk, .static-desk {
