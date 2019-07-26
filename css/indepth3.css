@@ -202,6 +202,7 @@
 	font-size: 16px;
 	width: 50%;
 	margin: auto;
+	cursor: pointer;
 }
 
 .jornada-content {
@@ -229,6 +230,115 @@
 
 	#content-header {
 		height: 200px;
+	}
+}
+
+@media(max-width: 850px) {
+	.indepth_content {
+    	width: 482px;
+    }
+
+    .item-top-bar {
+    	font-size: 25px;
+    	letter-spacing: 6px;
+    }
+
+    .director_img:nth-child(odd) {
+    	margin-right: 50px;
+    }
+
+    .director_img:nth-child(even) {
+    	margin-right: 0px;
+    }
+
+    #content-header {
+    	height: 160px;
+    }
+
+    #top-bar {
+    	margin-top: 0px;
+    }
+
+    #firma {
+    	width: 90%;
+    }
+
+    .jornada-content {
+    	/* The height needs to be set to a fixed value for the effect to work.
+	   * 100vh is the full height of the viewport. */
+	  height: 90vh;
+	  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+	  overflow-x: hidden;
+	  /* Enable scrolling on the page. */
+	  overflow-y: auto;
+	  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+	  perspective: 2px;
+    }
+
+    .item {
+    	/* Needed for children to be absolutely positioned relative to the parent. */
+	  position: relative;
+	  /* For text formatting. */
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  color: white;
+	  text-shadow: 0 0 5px #000;
+	  background-repeat: no-repeat!important;
+    }
+
+    .parallax {
+    	height: 50vh;
+    }
+    
+
+    .parallax::after {
+	  /* Display and position the pseudo-element */
+	  content: " ";
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  
+	  /* Move the pseudo-element back away from the camera,
+	   * then scale it back up to fill the viewport.
+	   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+	  transform: translateZ(-1px) scale(1.5);
+	  /* Force the background image to fill the whole element. */
+	  background-size: 100% 100%;
+	  /* Keep the image from overlapping sibling elements. */ 
+	  z-index: -1;
+	}
+
+	/* The styling for the static div. */
+	.static {
+	  background-color: #000;
+	  background-size: 100% 80%;
+	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+	  height: 50vh;
+	}
+
+	.static p {
+		font-size: 17px;
+		width: 85%;
+		top: 310px;
+	}
+
+	#bg1-j1::after {
+		background-image: url(../images/j1/escena_1.jpg);
+	}
+
+	#bg2-j1::after {
+		background-image: url(../images/j1/escena_2.jpg);
+	}
+
+	#bg3-j1::after {
+		background-image: url(../images/j1/escena_3.jpg);
+	}
+
+	.parallax-desk, .static-desk {
+		display: none;
 	}
 }
 
@@ -435,7 +545,7 @@
 	  overflow-y: auto;
 	  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
 	  perspective: 2px;
-	  width: 190vh;
+	  width: 100%;
     }
 
     .item {
@@ -467,6 +577,18 @@
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
 	  height: 56vh;
 	  padding: 15px 0px;
+	}
+
+	#bg1-j1::after {
+		background-image: url(../images/j1/escena_1.jpg);
+	}
+
+	#bg2-j1::after {
+		background-image: url(../images/j1/escena_2.jpg);
+	}
+
+	#bg3-j1::after {
+		background-image: url(../images/j1/escena_3.jpg);
 	}
 
 	.static p {

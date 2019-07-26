@@ -33,10 +33,9 @@ $(document).ready(function(){
 
     $(".title-content").click(function(){
         $(this).next().next().slideToggle("slow");
-        $(this).next().next().animate({
-          top: 0
-        },900);
     });
 
-    
+    $(".subtitle").click(function(){
+        $(this).next().slideToggle("slow");
+    });
 });
