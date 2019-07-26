@@ -123,17 +123,55 @@
 	letter-spacing: 3px;
 }
 
+.parallax {
+	width: 100%;
+	height: 100%;
+	max-height: 1080px;
+	background-size: 100%;
+	background-color: #000;
+	top: 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50%;
+}
+
+#bg1-j1 {
+	background-image: url(../images/j1/escena.jpg);
+}
+
+#bg2-j1 {
+	background-image: url(../images/j1/escena2.jpg);
+}
+
+#bg3-j1 {
+	background-image: url(../images/j1/escena3.jpg);
+}
+
 .static {
 	font-size: 20px;
 	text-align: justify;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	width: 100%;
+	height: 85%;
+	position: relative;
 }
 
 .static b {
 	font-weight: 700;
 	text-align: justify;
+}
+
+.static p {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
 }
 
 .title-content {
@@ -145,6 +183,7 @@
 	cursor: pointer;
 	width: 50%;
 	margin: auto;
+	text-align: center;
 }
 
 .subtitle {
@@ -297,6 +336,10 @@
 
 	#logo-cover img {
 		width: 100%;
+	}
+
+	.subtitle, .title-content {
+		width: 85%;
 	}
 }
 
