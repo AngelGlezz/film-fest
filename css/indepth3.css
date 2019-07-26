@@ -136,6 +136,21 @@
 	text-align: justify;
 }
 
+.title-content {
+	font-family: 'Roboto', sans-serif;
+	color: #bb9d59;
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 700;
+}
+
+.subtitle {
+	padding: 15px 0px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
 @media(max-width: 960px) {
 	.indepth_content {
 	    width: 750px;
@@ -356,7 +371,7 @@
     }
 
     .parallax {
-    	height: 150vh;
+    	height: 155vh;
     }
     
 
@@ -370,7 +385,7 @@
 	  background-color: #000;
 	  background-size: 100% 80%;
 	  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-	  height: 50vh;
+	  height: 56vh;
 	  padding: 15px 0px;
 	}
 
