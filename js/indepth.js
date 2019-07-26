@@ -30,4 +30,8 @@ $(document).ready(function(){
         $("#directores-bar").css({"border-bottom": "none"});
         $("#jornadas-bar").css({"border-bottom": "2px solid #bb9d59"});
     });
+
+    $(".title-content").click(function(){
+        $(this).next().next().slideToggle( "slow" );
+    });
 });
