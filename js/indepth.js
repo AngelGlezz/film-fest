@@ -7,7 +7,7 @@ $(document).ready(function(){
     $("#inicio-bar").click(function(){
         $("#inicio").show();
     	$("#directores").fadeOut("slow");
-    	$("#jornadas").fadeOut("slow");
+    	$("#jornada").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "2px solid #bb9d59"});
         $("#directores-bar").css({"border-bottom": "none"});
         $("#jornadas-bar").css({"border-bottom": "none"});
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	$("#directores-bar").click(function(){
     	$("#directores").show();
-    	$("#jornadas").fadeOut("slow");
+    	$("#jornada").fadeOut("slow");
     	$("#inicio").fadeOut("slow");
         $("#inicio-bar").css({"border-bottom": "none"});
         $("#directores-bar").css({"border-bottom": "2px solid #bb9d59"});
@@ -33,10 +33,9 @@ $(document).ready(function(){
 
     $(".title-content").click(function(){
         $(this).next().next().slideToggle("slow");
-        $(this).next().next().animate({
-          top: 0
-        },900);
     });
 
-    
+    $(".subtitle").click(function(){
+        $(this).next().slideToggle("slow");
+    });
 });
