@@ -426,6 +426,18 @@
 		width: 100%;
 	}
 
+	#bg1-j1::after {
+		background-image: url(../images/j1/escena_1.jpg);
+	}
+
+	#bg2-j1::after {
+		background-image: url(../images/j1/escena_2.jpg);
+	}
+
+	#bg3-j1::after {
+		background-image: url(../images/j1/escena_3.jpg);
+	}
+
 	.jornada-content {
     	/* The height needs to be set to a fixed value for the effect to work.
 	   * 100vh is the full height of the viewport. */
