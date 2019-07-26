@@ -158,7 +158,7 @@
 
 .static-desk {
 	width: 100%;
-	height: 85%;
+	height: 95%;
 	position: relative;
 }
 
@@ -207,11 +207,12 @@
 
 .jornada-content {
 	display: none;
+	height: 100%;
 }
 
 #jornada {
 	width: 100%;
-	height: 100%;
+	height: 1080px;
 }
 
 .parallax, .static {
