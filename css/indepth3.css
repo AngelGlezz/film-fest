@@ -318,6 +318,10 @@
 	  height: 50vh;
 	}
 
+	.static p {
+		top: 310px;
+	}
+
 	#bg1-j1::after {
 		background-image: url(../images/j1/escena_1.jpg);
 	}
@@ -414,7 +418,7 @@
     }
 }
 
-@media(max-width: 815px) and (max-height: 400px) {
+@media(max-width: 850px) and (max-height: 420px) {
 	#jornada {
 		width: 100%;
 	}
@@ -463,8 +467,16 @@
 	  padding: 15px 0px;
 	}
 
+	.static p {
+		top: 310px;
+	}
+
 	#txt3-j1 {
 		height: 0vh!important;
+	}
+
+	.parallax-desk, .static-desk {
+		display: none;
 	}
 }
 
