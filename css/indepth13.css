@@ -231,7 +231,7 @@
 
 .jornada-content {
 	display: none;
-	height: 100%;
+	height: 1080px;
 }
 
 #jornada {
@@ -241,6 +241,14 @@
 
 .parallax, .static {
 	display: none;
+}
+
+#modal {
+	display: none;
+}
+
+.fancybox-nav span {
+	display: none!important;
 }
 
 #body-wrapper{ display:none;}
@@ -543,6 +551,50 @@
 	.static span, .static-desk span {
 		font-size: 45px;
 	}
+
+	#modal {
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+	}
+
+	#content-modal {
+		width: 320px;
+		height: 320px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	#modal-txt {
+		color: #fff;
+		text-align: justify;
+		font-size: 20px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+	}
+
+	#modal-image {
+		width: 300px;
+		height: 300px;
+		
+	}
+
+	#modal-image img {
+		width: 100%;
+		height: 100%;
+		transform: rotateZ(270deg);
+	}
+	
 }
 
 @media(max-width: 430px) {
@@ -643,7 +695,7 @@
 	}
 
 	#txt3-j1 {
-		height: 40vh!important;
+		height: 48vh!important;
 	}
 
 	.parallax-desk, .static-desk {
