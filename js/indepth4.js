@@ -30,7 +30,7 @@ $(document).ready(function(){
         $("#inicio-bar").css({"border-bottom": "none"});
         $("#directores-bar").css({"border-bottom": "none"});
         $("#jornadas-bar").css({"border-bottom": "2px solid #bb9d59"});
-        setTimeout(function(){ $("#modal").hide(); }, 5000);
+        setTimeout(function(){ $("#modal").hide(); }, 3500);
     });
 
     $(".item-top-bar").click(function(){
