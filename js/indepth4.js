@@ -55,14 +55,14 @@ $(document).ready(function(){
         var content = cover+header+topheight+topmargin+bottommargin+((jornada+subtitle+subtitlepad)*ele);
         console.log(content,cover,header,topheight,topmargin,bottommargin,jornada,subtitle,subtitlepad,ele)
         $(this).next().next().slideToggle("slow");
-        $('html, body').animate({
-            scrollTop: content
-        }, 2000);
         if ($(this).find('.item-icon').hasClass('mas'))
         {
             $(this).find('.item-icon').removeClass('mas');
             $(this).find('.item-icon').addClass('menos');
             $(this).find('.item-icon').html('_').css({'top': '-10px'});
+            $('html, body').animate({
+                scrollTop: content
+            }, 2000);
         }
         else {
             $(this).find('.item-icon').addClass('mas');
@@ -84,14 +84,14 @@ $(document).ready(function(){
         var content = cover+header+topheight+topmargin+bottommargin+((jornada+title+subtitlepad)*ele);
         console.log(content,cover,header,topheight,topmargin,bottommargin,jornada,title,subtitlepad,ele);
         $(this).next().slideToggle("slow");
-        $('html, body').animate({
-            scrollTop: content
-        }, 2000);
         if ($(this).prev().find('.item-icon').hasClass('mas'))
         {
             $(this).prev().find('.item-icon').removeClass('mas');
             $(this).prev().find('.item-icon').addClass('menos');
             $(this).prev().find('.item-icon').html('_').css({'top': '-10px'});
+            $('html, body').animate({
+                scrollTop: content
+            }, 2000);
         }
         else {
             $(this).prev().find('.item-icon').addClass('mas');
