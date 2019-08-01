@@ -54,7 +54,6 @@ $(document).ready(function(){
         var ele = $(this).attr('ele');
         var content = cover+header+topheight+topmargin+bottommargin+((jornada+subtitle+subtitlepad)*ele);
         $(this).next().next().slideToggle("slow");
-        $(this).next().next().css({"display": "content!important"});
         if ($(this).find('.item-icon').hasClass('mas'))
         {
             $(this).find('.item-icon').removeClass('mas');
@@ -83,7 +82,6 @@ $(document).ready(function(){
         var ele = $(this).attr('ele');
         var content = cover+header+topheight+topmargin+bottommargin+((jornada+title+subtitlepad)*ele);
         $(this).next().slideToggle("slow");
-        $(this).next().css({"display": "content!important"});
         if ($(this).prev().find('.item-icon').hasClass('mas'))
         {
             $(this).prev().find('.item-icon').removeClass('mas');
