@@ -3,6 +3,7 @@
    font-family: "Bebas-neue";
    src: url(../fonts/BebasNeue.otf) format("opentype");
 }
+
 #directores, #jornada {
 	display: none;
 }
@@ -165,6 +166,70 @@
 
 #bg3-j2-desk {
 	background-image: url(../images/j2/escena3.jpg);
+}
+
+#bg1-j3-desk {
+	background-image: url(../images/j3/escena1.jpg);
+}
+
+#bg2-j3-desk {
+	background-image: url(../images/j3/escena2.jpg);
+}
+
+#bg3-j3-desk {
+	background-image: url(../images/j3/escena3.jpg);
+}
+
+#bg1-j4-desk {
+	background-image: url(../images/j4/escena1.jpg);
+}
+
+#bg2-j4-desk {
+	background-image: url(../images/j4/escena2.jpg);
+}
+
+#bg3-j4-desk {
+	background-image: url(../images/j4/escena3.jpg);
+}
+
+#bg1-j5-desk {
+	background-image: url(../images/j5/escena1.jpg);
+}
+
+#bg2-j5-desk {
+	background-image: url(../images/j5/escena2.jpg);
+}
+
+#bg3-j5-desk {
+	background-image: url(../images/j5/escena3.jpg);
+}
+
+#bg1-j6-desk {
+	background-image: url(../images/j6/escena1.jpg);
+}
+
+#bg2-j6-desk {
+	background-image: url(../images/j6/escena2.jpg);
+}
+
+#bg3-j6-desk {
+	background-image: url(../images/j6/escena3.jpg);
+}
+
+#bg1-j7-desk {
+	background-image: url(../images/j7/escena1.jpg);
+}
+
+#bg1-j8-desk {
+	background-image: url(../images/j8/escena1.jpg);
+}
+
+#bg2-j8-desk {
+	background-image: url(../images/j8/escena2.jpg);
+}
+
+#bg3-j8-desk {
+	background-image: url(../images/j8/escena3.jpg);
 }
 
 .static {
@@ -395,6 +460,70 @@
 		background-image: url(../images/j2/escena_3.jpg);
 	}
 
+	#bg1-j3::after {
+		background-image: url(../images/j3/escena_1.jpg);
+	}
+
+	#bg2-j3::after {
+		background-image: url(../images/j3/escena_2.jpg);
+	}
+
+	#bg3-j3::after {
+		background-image: url(../images/j3/escena_3.jpg);
+	}
+
+	#bg1-j4::after {
+		background-image: url(../images/j4/escena_1.jpg);
+	}
+
+	#bg2-j4::after {
+		background-image: url(../images/j4/escena_2.jpg);
+	}
+
+	#bg3-j4::after {
+		background-image: url(../images/j4/escena_3.jpg);
+	}
+
+	#bg1-j5::after {
+		background-image: url(../images/j5/escena_1.jpg);
+	}
+
+	#bg2-j5::after {
+		background-image: url(../images/j5/escena_2.jpg);
+	}
+
+	#bg3-j5::after {
+		background-image: url(../images/j5/escena_3.jpg);
+	}
+
+	#bg1-j6::after {
+		background-image: url(../images/j6/escena_1.jpg);
+	}
+
+	#bg2-j6::after {
+		background-image: url(../images/j6/escena_2.jpg);
+	}
+
+	#bg3-j6::after {
+		background-image: url(../images/j6/escena_3.jpg);
+	}
+
+	#bg1-j7::after {
+		background-image: url(../images/j7/escena_1.jpg);
+	}
+
+	#bg1-j8::after {
+		background-image: url(../images/j8/escena_1.jpg);
+	}
+
+	#bg2-j8::after {
+		background-image: url(../images/j8/escena_2.jpg);
+	}
+
+	#bg3-j8::after {
+		background-image: url(../images/j8/escena_3.jpg);
+	}
+
 	.parallax-desk, .static-desk {
 		display: none;
 	}
@@ -486,6 +615,18 @@
 	  height: 50vh;
 	}
 
+	#txt2-j4 {
+		height: 75vh;
+	}
+
+	#txt2-j4 div {
+		height: 450px;
+	}
+
+	#txt1-j6, #txt2-j6 {
+		height: 62vh;
+	}
+
 	.static p {
 		font-size: 17px;
 		width: 85%;
@@ -502,6 +643,82 @@
 
 	#bg3-j1::after {
 		background-image: url(../images/j1/escena_3.jpg);
+	}
+
+	#bg1-j2::after {
+		background-image: url(../images/j2/escena_1.jpg);
+	}
+
+	#bg2-j2::after {
+		background-image: url(../images/j2/escena_2.jpg);
+	}
+
+	#bg3-j2::after {
+		background-image: url(../images/j2/escena_3.jpg);
+	}
+
+	#bg1-j3::after {
+		background-image: url(../images/j3/escena_1.jpg);
+	}
+
+	#bg2-j3::after {
+		background-image: url(../images/j3/escena_2.jpg);
+	}
+
+	#bg3-j3::after {
+		background-image: url(../images/j3/escena_3.jpg);
+	}
+
+	#bg1-j4::after {
+		background-image: url(../images/j4/escena_1.jpg);
+	}
+
+	#bg2-j4::after {
+		background-image: url(../images/j4/escena_2.jpg);
+	}
+
+	#bg3-j4::after {
+		background-image: url(../images/j4/escena_3.jpg);
+	}
+
+	#bg1-j5::after {
+		background-image: url(../images/j5/escena_1.jpg);
+	}
+
+	#bg2-j5::after {
+		background-image: url(../images/j5/escena_2.jpg);
+	}
+
+	#bg3-j5::after {
+		background-image: url(../images/j5/escena_3.jpg);
+	}
+
+	#bg1-j6::after {
+		background-image: url(../images/j6/escena_1.jpg);
+	}
+
+	#bg2-j6::after {
+		background-image: url(../images/j6/escena_2.jpg);
+	}
+
+	#bg3-j6::after {
+		background-image: url(../images/j6/escena_3.jpg);
+	}
+
+	#bg1-j7::after {
+		background-image: url(../images/j7/escena_1.jpg);
+	}
+
+	#bg1-j8::after {
+		background-image: url(../images/j8/escena_1.jpg);
+	}
+
+	#bg2-j8::after {
+		background-image: url(../images/j8/escena_2.jpg);
+	}
+
+	#bg3-j8::after {
+		background-image: url(../images/j8/escena_3.jpg);
 	}
 
 	.parallax-desk, .static-desk {
@@ -615,7 +832,6 @@
 		height: 100%;
 		transform: rotateZ(270deg);
 	}
-	
 }
 
 @media(max-width: 430px) {
@@ -683,7 +899,6 @@
     	height: 155vh;
     }
     
-
     .parallax::after {
 	  transform: translateZ(-1px) scale(1.5);
 	  background-size: 100% 115%;
@@ -698,6 +913,18 @@
 	  padding: 15px 0px;
 	}
 
+	#txt2-j4 {
+		height: 135vh;
+	}
+
+	#txt2-j4 div {
+		height: 480px;
+	}
+
+	#txt1-j6, #txt2-j6 {
+		height: 115vh;
+	}
+
 	#bg1-j1::after {
 		background-image: url(../images/j1/escena_1.jpg);
 	}
@@ -708,6 +935,82 @@
 
 	#bg3-j1::after {
 		background-image: url(../images/j1/escena_3.jpg);
+	}
+
+	#bg1-j2::after {
+		background-image: url(../images/j2/escena_1.jpg);
+	}
+
+	#bg2-j2::after {
+		background-image: url(../images/j2/escena_2.jpg);
+	}
+
+	#bg3-j2::after {
+		background-image: url(../images/j2/escena_3.jpg);
+	}
+
+	#bg1-j3::after {
+		background-image: url(../images/j3/escena_1.jpg);
+	}
+
+	#bg2-j3::after {
+		background-image: url(../images/j3/escena_2.jpg);
+	}
+
+	#bg3-j3::after {
+		background-image: url(../images/j3/escena_3.jpg);
+	}
+
+	#bg1-j4::after {
+		background-image: url(../images/j4/escena_1.jpg);
+	}
+
+	#bg2-j4::after {
+		background-image: url(../images/j4/escena_2.jpg);
+	}
+
+	#bg3-j4::after {
+		background-image: url(../images/j4/escena_3.jpg);
+	}
+
+	#bg1-j5::after {
+		background-image: url(../images/j5/escena_1.jpg);
+	}
+
+	#bg2-j5::after {
+		background-image: url(../images/j5/escena_2.jpg);
+	}
+
+	#bg3-j5::after {
+		background-image: url(../images/j5/escena_3.jpg);
+	}
+
+	#bg1-j6::after {
+		background-image: url(../images/j6/escena_1.jpg);
+	}
+
+	#bg2-j6::after {
+		background-image: url(../images/j6/escena_2.jpg);
+	}
+
+	#bg3-j6::after {
+		background-image: url(../images/j6/escena_3.jpg);
+	}
+
+	#bg1-j7::after {
+		background-image: url(../images/j7/escena_1.jpg);
+	}
+
+	#bg1-j8::after {
+		background-image: url(../images/j8/escena_1.jpg);
+	}
+
+	#bg2-j8::after {
+		background-image: url(../images/j8/escena_2.jpg);
+	}
+
+	#bg3-j8::after {
+		background-image: url(../images/j8/escena_3.jpg);
 	}
 
 	.static p {
@@ -721,6 +1024,10 @@
 
 	.parallax-desk, .static-desk {
 		display: none;
+	}
+
+	.static span {
+		font-size: 50px;
 	}
 }
 
