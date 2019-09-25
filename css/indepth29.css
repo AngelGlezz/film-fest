@@ -244,6 +244,18 @@
 	background-image: url(../images/j9/escena3.jpg);
 }
 
+#bg1-j10-desk {
+	background-image: url(../images/j10/escena1.jpg);
+}
+
+#bg2-j10-desk {
+	background-image: url(../images/j10/escena2.jpg);
+}
+
+#bg3-j10-desk {
+	background-image: url(../images/j10/escena3.jpg);
+}
+
 .static {
 	font-size: 20px;
 	text-align: justify;
@@ -548,6 +560,18 @@
 		background-image: url(../images/j9/escena_3.jpg);
 	}
 
+	#bg1-j10::after {
+		background-image: url(../images/j10/escena_1.jpg);
+	}
+
+	#bg2-j10::after {
+		background-image: url(../images/j10/escena_2.jpg);
+	}
+
+	#bg3-j10::after {
+		background-image: url(../images/j10/escena_3.jpg);
+	}
+
 	.parallax-desk, .static-desk {
 		display: none;
 	}
@@ -755,6 +779,18 @@
 
 	#bg3-j9::after {
 		background-image: url(../images/j9/escena_3.jpg);
+	}
+
+	#bg1-j10::after {
+		background-image: url(../images/j10/escena_1.jpg);
+	}
+
+	#bg2-j10::after {
+		background-image: url(../images/j10/escena_2.jpg);
+	}
+
+	#bg3-j10::after {
+		background-image: url(../images/j10/escena_3.jpg);
 	}
 
 	.parallax-desk, .static-desk {
@@ -1059,6 +1095,18 @@
 
 	#bg3-j9::after {
 		background-image: url(../images/j9/escena_3.jpg);
+	}
+
+	#bg1-j10::after {
+		background-image: url(../images/j10/escena_1.jpg);
+	}
+
+	#bg2-j10::after {
+		background-image: url(../images/j10/escena_2.jpg);
+	}
+
+	#bg3-j10::after {
+		background-image: url(../images/j10/escena_3.jpg);
 	}
 
 	.static p {
